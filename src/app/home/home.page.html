@@ -24,11 +24,11 @@
       </ion-toolbar>
     </ion-header>
     <ion-content>
-      <ion-item (click)="menu()"><ion-label>Licenciatura</ion-label></ion-item>
-      <ion-item (click)="menu()"><ion-label>Sistemas  </ion-label></ion-item>
-      <ion-item (click)="menu()"><ion-label>Profesorado </ion-label></ion-item>
-      <ion-item (click)="menu()"><ion-label>Tecnicatura web </ion-label></ion-item>
-      <ion-item  lines="nones" (click)="menu()" ><ion-label>Tecnicatura en software libre </ion-label></ion-item>
+      <ion-item (click)="menu('Licenciatura en ciencias')"><ion-label>Licenciatura en ciencias</ion-label></ion-item>
+      <ion-item (click)="menu('Licenciatura en sistemas')"><ion-label>Licenciatura en sistemas  </ion-label></ion-item>
+      <ion-item (click)="menu('Profesorado en Informatica')"><ion-label>Profesorado en Informatica</ion-label></ion-item>
+      <ion-item (click)="menu('Tecnicatura en desarrollo web')"><ion-label>Tecnicatura en desarrollo web </ion-label></ion-item>
+      <ion-item  lines="nones" (click)="menu('Tecnicatura en sistemas y software libres')" ><ion-label>Tecnicatura en software libre </ion-label></ion-item>
       <ion-list>
         <ion-list-header>Accesos diretos</ion-list-header>
       </ion-list>
